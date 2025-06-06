@@ -1,10 +1,6 @@
 'use client';
 
 import HeroBanner from '@components/HeroBanner';
-import WorkSection from '@components/WorkSection';
-import TechDeepDive from '@components/TechDeepDive';
-import ThoughtStream from '@components/ThoughtStream';
-import AboutSection from '@components/AboutSection';
 import MolecularBackground from '@components/MolecularBackground';
 
 export default function Home() {
