@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Playfair Display + Source Sans 3 via Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Source+Sans+3:wght@300;400;500;600&display=swap');
+/* Fonts loaded via Next.js Google Fonts optimization in layout.tsx */
+/* No direct Google Fonts import needed - using Next.js font optimization */
 
 html {
   scroll-behavior: smooth;

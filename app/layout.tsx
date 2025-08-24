@@ -1,6 +1,7 @@
 import './globals.css';
 import { Playfair_Display, Source_Sans_3 } from 'next/font/google';
 import { ThemeProvider } from '@components/ThemeProvider';
+import Navbar from '@components/Navbar';
 
 const playfair = Playfair_Display({ 
   subsets: ['latin'], 
@@ -10,7 +11,7 @@ const playfair = Playfair_Display({
 
 const sourceSans = Source_Sans_3({ 
   subsets: ['latin'], 
-  variable: '--font-source-sans',
+  variable: '--font-space-grotesk',
   display: 'swap'
 });
 
@@ -24,6 +25,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="en" className={`${playfair.variable} ${sourceSans.variable}`}> 
       <body className="font-body bg-background-light text-neutral-900 dark:bg-background-dark dark:text-neutral-100">
         <ThemeProvider>
+          <Navbar />
           {children}
         </ThemeProvider>
       </body>

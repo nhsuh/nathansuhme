@@ -36,8 +36,8 @@ module.exports = {
         }
       },
       fontFamily: {
-        heading: ['"Playfair Display"', 'serif'],     // elegant serif for headings
-        body: ['"Source Sans 3"', 'sans-serif'],     // clean modern sans for body
+        heading: ['var(--font-playfair)', 'serif'],     // elegant serif for headings
+        body: ['var(--font-space-grotesk)', 'sans-serif'],     // clean modern sans for body
         code: ['"JetBrains Mono"', 'monospace'],     // technical monospace
       },
     },

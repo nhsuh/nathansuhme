@@ -22,9 +22,9 @@ export default function HeroBanner() {
         <RotatingText />
       </motion.div>
       <div className="mt-8 flex flex-wrap gap-4 justify-center">
-        <a href="https://github.com/nhsuh" target="_blank" rel="noopener noreferrer" className="bg-primary text-neutral-900 font-heading px-6 py-3 rounded-lg shadow hover:-translate-y-1 hover:bg-secondary transition-all">GitHub</a>
-        <a href="https://www.linkedin.com/in/nathan-suh/" target="_blank" rel="noopener noreferrer" className="border-2 border-primary text-primary font-heading px-6 py-3 rounded-lg hover:bg-primary hover:text-neutral-900 transition-colors">LinkedIn</a>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="border-2 border-secondary text-secondary font-heading px-6 py-3 rounded-lg hover:bg-secondary hover:text-neutral-900 transition-colors">Resume</a>
+        <a href="https://github.com/nhsuh" target="_blank" rel="noopener noreferrer" className="border-2 border-primary text-primary font-heading px-6 py-3 rounded-lg shadow hover:-translate-y-1 hover:bg-primary hover:text-neutral-900 transition-all">GitHub</a>
+        <a href="https://www.linkedin.com/in/nathan-suh/" target="_blank" rel="noopener noreferrer" className="border-2 border-primary text-primary font-heading px-6 py-3 rounded-lg shadow hover:-translate-y-1 hover:bg-primary hover:text-neutral-900 transition-all">LinkedIn</a>
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="border-2 border-secondary text-secondary font-heading px-6 py-3 rounded-lg shadow hover:-translate-y-1 hover:bg-secondary hover:text-neutral-900 transition-all">Resume</a>
       </div>
     </div>
   );

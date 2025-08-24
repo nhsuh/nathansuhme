@@ -67,7 +67,7 @@ export default function RotatingText() {
           }}
           className="absolute inset-0 flex items-center justify-center"
         >
-          <span className="text-lg md:text-xl text-gray-400 dark:text-gray-300">
+          <span className="font-body text-lg md:text-xl text-gray-400 dark:text-gray-300">
             {currentArea.prefix}{' '}
             <span className="font-semibold italic" style={{ color: '#FF9A85' }}>
               {currentArea.emphasis}
