@@ -1,5 +1,5 @@
 import './globals.css';
-import { Playfair_Display, Source_Sans_3 } from 'next/font/google';
+import { Playfair_Display, Source_Sans_3, Bruno_Ace } from 'next/font/google';
 import { ThemeProvider } from '@components/ThemeProvider';
 import Navbar from '@components/Navbar';
 
@@ -15,6 +15,13 @@ const sourceSans = Source_Sans_3({
   display: 'swap'
 });
 
+const brunoAce = Bruno_Ace({ 
+  weight: '400',
+  subsets: ['latin'], 
+  variable: '--font-bruno-ace',
+  display: 'swap'
+});
+
 export const metadata = {
   title: 'Nathan Suh – Software Engineer',
   description: 'Personal site of Nathan Suh',
@@ -22,7 +29,7 @@ export const metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" className={`${playfair.variable} ${sourceSans.variable}`}> 
+    <html lang="en" className={`${playfair.variable} ${sourceSans.variable} ${brunoAce.variable}`}> 
       <body className="font-body bg-background-light text-neutral-900 dark:bg-background-dark dark:text-neutral-100">
         <ThemeProvider>
           <Navbar />

@@ -9,6 +9,12 @@ html {
   scroll-behavior: smooth;
 }
 
+/* Reset default margins and padding */
+body {
+  margin: 0;
+  padding: 0;
+}
+
 /* Hide scrollbars but maintain scroll functionality */
 * {
   scrollbar-width: none; /* Firefox */

@@ -11,7 +11,7 @@ export default function HeroBanner() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Hi, I'm <span className="text-primary">Nathan</span>
+        Hi, I'm <span className="text-primary font-display italic">Nathan</span>
       </motion.h1>
       <motion.div
         className="max-w-xl font-body"

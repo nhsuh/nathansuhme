@@ -39,6 +39,7 @@ module.exports = {
         heading: ['var(--font-playfair)', 'serif'],     // elegant serif for headings
         body: ['var(--font-space-grotesk)', 'sans-serif'],     // clean modern sans for body
         code: ['"JetBrains Mono"', 'monospace'],     // technical monospace
+        display: ['var(--font-bruno-ace)', 'cursive'],     // Bruno Ace for special display text
       },
     },
   },

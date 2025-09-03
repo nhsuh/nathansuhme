@@ -950,9 +950,10 @@ export default function MolecularBackground() {
   return (
     <div className="absolute inset-0 pointer-events-none overflow-hidden">
       <svg 
-        width="100%" 
-        height="100%" 
+        width={dimensions.width} 
+        height={dimensions.height} 
         className="absolute inset-0 text-primary/60 dark:text-primary/40"
+        style={{ maxWidth: '100vw', maxHeight: '100vh' }}
       >
         <defs>
           <filter id="glow">
