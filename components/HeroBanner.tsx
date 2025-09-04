@@ -22,20 +22,14 @@ export default function HeroBanner() {
         <RotatingText />
       </motion.div>
       <div className="mt-8 flex flex-wrap gap-4 justify-center">
-        <a href="https://github.com/nhsuh" target="_blank" rel="noopener noreferrer" className="relative border-2 border-transparent bg-gradient-to-r from-primary via-accent-purple to-accent-orange p-0.5 font-heading rounded-lg shadow hover:-translate-y-1 transition-all group overflow-hidden">
-          <span className="flex px-6 py-3 bg-background-light dark:bg-background-dark rounded-md group-hover:bg-gradient-to-r group-hover:from-primary group-hover:via-accent-purple group-hover:to-accent-orange group-hover:text-white transition-all">
-            GitHub
-          </span>
+        <a href="https://github.com/nhsuh" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 font-heading rounded-lg shadow hover:-translate-y-1 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:text-black transition-all">
+          GitHub
         </a>
-        <a href="https://www.linkedin.com/in/nathan-suh/" target="_blank" rel="noopener noreferrer" className="relative border-2 border-transparent bg-gradient-to-r from-primary via-accent-purple to-accent-orange p-0.5 font-heading rounded-lg shadow hover:-translate-y-1 transition-all group overflow-hidden">
-          <span className="flex px-6 py-3 bg-background-light dark:bg-background-dark rounded-md group-hover:bg-gradient-to-r group-hover:from-primary group-hover:via-accent-purple group-hover:to-accent-orange group-hover:text-white transition-all">
-            LinkedIn
-          </span>
+        <a href="https://www.linkedin.com/in/nathan-suh/" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 font-heading rounded-lg shadow hover:-translate-y-1 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:text-black transition-all">
+          LinkedIn
         </a>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="relative border-2 border-transparent bg-gradient-to-r from-accent-orange via-accent-gold to-secondary p-0.5 font-heading rounded-lg shadow hover:-translate-y-1 transition-all group overflow-hidden">
-          <span className="flex px-6 py-3 bg-background-light dark:bg-background-dark rounded-md group-hover:bg-gradient-to-r group-hover:from-accent-orange group-hover:via-accent-gold group-hover:to-secondary group-hover:text-white transition-all">
-            Resume
-          </span>
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 font-heading rounded-lg shadow hover:-translate-y-1 hover:bg-gradient-to-r hover:from-accent-orange hover:via-accent-gold hover:to-secondary hover:text-black transition-all">
+          Resume
         </a>
       </div>
     </div>
