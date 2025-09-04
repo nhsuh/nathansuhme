@@ -22,13 +22,13 @@ export default function HeroBanner() {
         <RotatingText />
       </motion.div>
       <div className="mt-8 flex flex-wrap gap-4 justify-center">
-        <a href="https://github.com/nhsuh" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 font-heading rounded-lg shadow hover:-translate-y-1 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:text-black transition-all">
+        <a href="https://github.com/nhsuh" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 font-heading rounded-lg shadow hover:-translate-y-1 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:!text-black transition-all">
           GitHub
         </a>
-        <a href="https://www.linkedin.com/in/nathan-suh/" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 font-heading rounded-lg shadow hover:-translate-y-1 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:text-black transition-all">
+        <a href="https://www.linkedin.com/in/nathan-suh/" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 font-heading rounded-lg shadow hover:-translate-y-1 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:!text-black transition-all">
           LinkedIn
         </a>
-        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 font-heading rounded-lg shadow hover:-translate-y-1 hover:bg-gradient-to-r hover:from-accent-orange hover:via-accent-gold hover:to-secondary hover:text-black transition-all">
+        <a href="/resume.pdf" target="_blank" rel="noopener noreferrer" className="px-6 py-3 bg-neutral-100 dark:bg-neutral-800 text-neutral-900 dark:text-neutral-100 font-heading rounded-lg shadow hover:-translate-y-1 hover:bg-gradient-to-r hover:from-accent-orange hover:via-accent-gold hover:to-secondary hover:!text-black transition-all">
           Resume
         </a>
       </div>
