@@ -50,11 +50,13 @@ export default function Navbar() {
   };
 
   return (
-    <nav className="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/50 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-800">
+    <nav className="sticky top-0 z-50 bg-background-light/80 dark:bg-background-dark/50 backdrop-blur-md border-b border-neutral-200 dark:border-neutral-800 relative">
+      {/* Subtle gradient accent line */}
+      <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-primary via-accent-purple to-accent-orange opacity-20"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           {/* Logo/Name */}
-          <Link href="/" className="font-display italic text-xl text-neutral-900 dark:text-neutral-100 hover:text-neutral-600 dark:hover:text-neutral-300 transition-colors">
+          <Link href="/" className="font-display italic text-xl bg-gradient-to-r from-primary via-accent-purple to-accent-orange bg-clip-text text-transparent hover:from-accent-purple hover:via-accent-orange hover:to-primary transition-all duration-300">
             Nathan Suh
           </Link>
 
@@ -62,19 +64,19 @@ export default function Navbar() {
           <div className="hidden md:flex items-center space-x-8">
             <Link 
               href={"/about" as any}
-              className="font-body text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+              className="font-body text-neutral-700 dark:text-neutral-300 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:bg-clip-text hover:text-transparent transition-all duration-300"
             >
               About Me
             </Link>
             <Link 
               href={"/blog" as any}
-              className="font-body text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+              className="font-body text-neutral-700 dark:text-neutral-300 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:bg-clip-text hover:text-transparent transition-all duration-300"
             >
               Blog
             </Link>
             <Link 
               href={"/projects" as any}
-              className="font-body text-neutral-700 dark:text-neutral-300 hover:text-neutral-900 dark:hover:text-neutral-100 transition-colors"
+              className="font-body text-neutral-700 dark:text-neutral-300 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:bg-clip-text hover:text-transparent transition-all duration-300"
             >
               Personal Projects
             </Link>
@@ -83,9 +85,9 @@ export default function Navbar() {
             <button 
               onClick={toggleTheme} 
               aria-label="Toggle theme" 
-              className="p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-neutral-200 dark:hover:bg-neutral-700 transition-colors"
+              className="relative p-2 rounded-lg bg-neutral-100 dark:bg-neutral-800 hover:bg-gradient-to-r hover:from-primary/10 hover:via-accent-purple/10 hover:to-accent-orange/10 hover:border-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange transition-all duration-300 hover:shadow-lg"
             >
-              {isDark ? <Sun size={18} /> : <Moon size={18} />}
+              {isDark ? <Sun size={18} className="hover:text-accent-orange transition-colors" /> : <Moon size={18} className="hover:text-primary transition-colors" />}
             </button>
           </div>
 
