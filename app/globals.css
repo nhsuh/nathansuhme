@@ -36,4 +36,18 @@ body {
 
 .rotateY-180 {
   transform: rotateY(180deg);
+}
+
+/* Floating animation for commentary bubbles */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
 } 
