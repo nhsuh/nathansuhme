@@ -62,7 +62,7 @@ export default function Navbar() {
 
           {/* Navigation Links */}
           <div className="hidden md:flex items-center space-x-8">
-            <Link 
+            {/* <Link 
               href={"/about" as any}
               className="font-body text-neutral-700 dark:text-neutral-300 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:bg-clip-text hover:text-transparent transition-all duration-300"
             >
@@ -79,7 +79,7 @@ export default function Navbar() {
               className="font-body text-neutral-700 dark:text-neutral-300 hover:bg-gradient-to-r hover:from-primary hover:via-accent-purple hover:to-accent-orange hover:bg-clip-text hover:text-transparent transition-all duration-300"
             >
               Personal Projects
-            </Link>
+            </Link> */}
             
             {/* Theme Toggle */}
             <button 
